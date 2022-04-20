@@ -62,7 +62,7 @@ public class Assignment1Part2 implements FilenameFilter {
                 // as provided in object of Assignment1Part2
                 // class
                 for (int i = 0; i < flist.length; i++) {
-                    System.out.println(flist[i] + " found , path is " + directory.getAbsolutePath()he);
+                    System.out.println(flist[i] + " found , path is " + directory.getAbsolutePath());
                 }
             }
 
