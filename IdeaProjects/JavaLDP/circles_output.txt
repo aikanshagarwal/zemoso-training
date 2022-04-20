@@ -1,0 +1,50 @@
+Length :10.0
+Width:5.0
+Area:50.0
+Perimeter:30.0
+
+Length :7.0
+Width:12.5
+Area:87.5
+Perimeter:39.0
+
+Length :7.5
+Width:2.5
+Area:18.75
+Perimeter:20.0
+
+Length :3.0
+Width:4.0
+Area:12.0
+Perimeter:14.0
+
+Length :16.0
+Width:10.0
+Area:160.0
+Perimeter:52.0
+
+Length :9.0
+Width:9.0
+Area:81.0
+Perimeter:36.0
+
+Length :15.0
+Width:5.75
+Area:86.25
+Perimeter:41.5
+
+Length :200.0
+Width:100.0
+Area:20000.0
+Perimeter:600.0
+
+Length :22.75
+Width:25.0
+Area:568.75
+Perimeter:95.5
+
+Length :13.0
+Width:6.0
+Area:78.0
+Perimeter:38.0
+
