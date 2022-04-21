@@ -19,7 +19,7 @@ public class Assignment3Part2
             if(count>0){
                 int indTime=line.indexOf("time=");
                 int indMS=line.indexOf("ms");
-                System.out.println(line.substring(indTime+5,indMS-1));
+                //System.out.println(line.substring(indTime+5,indMS-1));
                 double time=Double.parseDouble(line.substring(indTime+5,indMS-1));
                 timeList.add(time);
             }
