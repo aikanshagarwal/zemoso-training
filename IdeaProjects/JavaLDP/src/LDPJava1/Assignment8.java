@@ -8,7 +8,7 @@ public class Assignment8
             int arr[] = new int[6];
             //int b = arr[6];
             String ptr = null;
-            if(ptr.equals("gfg"))
+            if(ptr=="gfg")
             {
                 //do something
             }

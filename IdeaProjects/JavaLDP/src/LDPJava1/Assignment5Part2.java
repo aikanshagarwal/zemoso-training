@@ -15,6 +15,7 @@ public class Assignment5Part2
     {
         System.out.print(str1);
     }
+
     public static void main(String[] args)
     {
         Assignment5Part2 newobj = initialise("Hello");
