@@ -18,6 +18,8 @@ public class Assignment10
         insert(list, 7);
         insert(list, 8);
 
+
+
         printList(list);
 
         deleteNode(list,3);
@@ -30,12 +32,12 @@ class LinkedList
 {
     Node head;
 
-    static class Node
+    static class Node<T>
     {
-        int data;
+        T data;
         Node next;
 
-        Node(int d)
+        Node(T d)
         {
             data = d;
         }
@@ -54,7 +56,7 @@ class LinkedList
         }
     }
 
-    public static void insert(LinkedList list, int data)
+    public static <T> void insert(LinkedList list, T data)
     {
         Node new_node = new Node(data);
         new_node.next = null;
@@ -75,12 +77,12 @@ class LinkedList
         }
     }
 
-    public static void deleteNode(LinkedList list,int value)
+    public static <T> void deleteNode(LinkedList list,T value)
     {
         Node temp = list.head, prev = null;
 
         // If head node itself holds the value to be deleted
-        if (temp != null && temp.data == value)
+        if (temp != null && temp.data.equals(value))
         {
             list.head = temp.next; // Changed head
             return;
@@ -88,7 +90,7 @@ class LinkedList
 
         // Search for the value to be deleted, keep track of
         // the previous node as we need to change temp.next
-        while (temp != null && temp.data != value)
+        while (temp != null && !temp.data.equals(value))
         {
             prev = temp;
             temp = temp.next;
